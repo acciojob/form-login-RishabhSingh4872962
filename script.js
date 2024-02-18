@@ -1,6 +1,7 @@
-const firstname=document.getElementsByTagName("fname");
-const lastname=document.getElementsByTagName("lname");
+const firstname=document.getElementById("fname");
+const lastname=document.getElementById("lname");
+console.log(firstname)
 function getFormvalue() {
     //Write your code here
-	alert(`${firstname} ${lastname}`)
+	alert(`${firstname.value} ${lastname.value}`)
 }
